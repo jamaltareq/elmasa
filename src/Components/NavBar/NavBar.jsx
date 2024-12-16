@@ -10,7 +10,7 @@ export default function NavBar() {
         <nav className="navbar fixed-top navbar-expand-md  navbar-light">
             <div className="container" style={{ direction: 'rtl' }}>
                 <Link className="navbar-brand fw-bold" to="/">
-                    <img src="https://photos.fife.usercontent.google.com/pw/AP1GczPROlXcv4u0vc4VeYQCs5uvRrUlqwKvwD2Mzhl89GSU2JKV8JNU6L8=w1295-h879-s-no-gm?authuser=0" width={70} />
+                    <img src="https://images.pexels.com/photos/29804503/pexels-photo-29804503.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width={70} />
                 </Link>
                 <button
                     className="navbar-toggler custom-toggler"
