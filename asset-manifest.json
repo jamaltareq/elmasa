@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/elmasa/static/css/main.c095d08c.css",
-    "main.js": "/elmasa/static/js/main.a987d152.js",
+    "main.js": "/elmasa/static/js/main.f411e3d0.js",
     "static/js/453.435981ab.chunk.js": "/elmasa/static/js/453.435981ab.chunk.js",
     "static/media/fa-solid-900.ttf": "/elmasa/static/media/fa-solid-900.ad1782c70927ebc5bc87.ttf",
     "static/media/fa-brands-400.ttf": "/elmasa/static/media/fa-brands-400.26b80c8830bebf340211.ttf",
@@ -13,11 +13,11 @@
     "static/media/fa-v4compatibility.woff2": "/elmasa/static/media/fa-v4compatibility.c3ea317a0f10f201597f.woff2",
     "index.html": "/elmasa/index.html",
     "main.c095d08c.css.map": "/elmasa/static/css/main.c095d08c.css.map",
-    "main.a987d152.js.map": "/elmasa/static/js/main.a987d152.js.map",
+    "main.f411e3d0.js.map": "/elmasa/static/js/main.f411e3d0.js.map",
     "453.435981ab.chunk.js.map": "/elmasa/static/js/453.435981ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c095d08c.css",
-    "static/js/main.a987d152.js"
+    "static/js/main.f411e3d0.js"
   ]
 }
