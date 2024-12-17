@@ -31,6 +31,7 @@ export default function NavBar() {
                         <li className='nav-item'><a className='nav-link' href="#plan">الخطه</a></li>
                         <li className='nav-item'><a className='nav-link' href="#choose">لما تختارنا</a></li>
                         <li className='nav-item'><a className='nav-link' href="#Other"> خدمات أخرى</a></li>
+                        <li className='nav-item'><a className='nav-link' href="#model">نماذج </a></li>
                         <li className='nav-item'><a className='nav-link' href="#ofer">العروض </a></li>
                         <li className='nav-item'><a className='nav-link' href="#faq">الاسئلة الشائعة</a></li>
                         <li className="nav-item">

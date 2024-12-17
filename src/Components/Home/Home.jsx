@@ -12,6 +12,8 @@ import Features from '../Features/Features'
 import CrimeScene from '../CrimeScene/CrimeScene'
 import Brochure from '../Brochure/Brochure'
 import Other from '../Other/Other'
+import Model from '../Model/Model'
+import Offer from '../Offer/Offer'
 
 export default function Home() {
     return (
@@ -28,6 +30,8 @@ export default function Home() {
             <Plan />
             <Choose />
             <Other />
+            <Model />
+            <Offer />
             <Frequently />
         </>
     )

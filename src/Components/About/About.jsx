@@ -28,7 +28,7 @@ export default function about() {
 
                     <div className="image-column col-lg-6 col-md-12 col-sm-12">
                         <div className="inner-column wow fadeInLeft">
-                            <figure className="image-1"><a href="#" className="lightbox-image" data-fancybox="images"><img src="https://previews.dropbox.com/p/thumb/ACczeGnEIHoc58DYkb7HlYkIWgrxyettpA74afb4F0ZYa_qTzIqHlLaKoZM6niWOtaqNRGnJemz-lMcCZY62Z8kGgqroif17PaJk-W8NarRrwfBLK0xO_EIgUO7Ya3RMK39kzZmCS9ASopzfjRbOU7kto9RKdyd2gy8DlLnQWOF854qlJeBMqP_ZhHuJdkP1z33ULPkRlZEPdjgoGTGeAMU9-Y5qA1eofXs1oD-tGJIixOkW3Lp_EiMuhDWDEMaMleAMC-1oMIjXrsRix9vlZXxXxiGbfKngizkOvJdBuneFQN-DeCJg4B2smq3ZRgna8G6w4asAZHV2o0ajU1-4iBBy/p.png?is_prewarmed=true" alt="" /></a></figure>
+                            <figure className="image-1"><a href="#" className="lightbox-image" data-fancybox="images"><img src={require('./../../Assets/about.png')} alt="" /></a></figure>
                         </div>
                     </div>
                 </div>
