@@ -11,7 +11,6 @@ let router = createBrowserRouter([
     element: <LayOut />,
     children: [
       { path: "/", element: <Home /> },
-      { path: "elmasa", element: <Home /> },
       { path: "/contact", element: <Contact /> },
     ],
   },

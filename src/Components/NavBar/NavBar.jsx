@@ -10,7 +10,7 @@ export default function NavBar() {
         <nav className="navbar fixed-top navbar-expand-md  navbar-light">
             <div className="container" style={{ direction: 'rtl' }}>
                 <Link className="navbar-brand fw-bold" to="/">
-                    <img src="https://previews.dropbox.com/p/thumb/ACfnVDiAYWt3F09-4GwXkQ5M8LENZlvRC6ZOEF5rrLQMvK_b2S4lunVdfbRjreb57JhQmqKSrCh3xa3Xeaq-GEWfovVmMQkQk1uxTc8rsfDmpt0EGImOhGk2bEfaBEcTGQo_XYdbOWFTCka0nM7bvWPdRkNQ_rfbtORt2KdIr0_0v4yzHlpMxcoAr0lsOsFmkzrzy4KOsSu-kWFhZgsQxmZnvna2CY0aCAUpuOEcJEm-NLb2ULoGc7NuMx8PY_MxOKNKLQL2qdaOAtLk8a8ADizsXcNCWbBbLR3sGkhIJAZOPmI6DkiK-28l0EcKspdpAQoMLNgyekVL8m7mM_5ZW9tzw7gBDxODFa5ttEeY_aDJqg066wabRyPNzkyPzG6IQS-2ev3zlHwU7SBGISCri6fH/p.png?is_prewarmed=true" width={70} />
+                    <img src="https://images.pexels.com/photos/29804503/pexels-photo-29804503.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width={70} />
                 </Link>
                 <button
                     className="navbar-toggler custom-toggler"
