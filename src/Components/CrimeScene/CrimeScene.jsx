@@ -6,7 +6,7 @@ export default function CrimeScene() {
             <div id='wrapper' className="wrapper">
                 <div className="text-center">
                     <p className="mt-4 mx-auto text-lg text-muted">
-                        مما يتكون نظام شبكات الماسة
+                        مما يتكون نظام شبكات الألماس
                     </p>
                     <h3 className="mt-2  fw-normal text-dark">
                         جميع المنتجات هي من السوق السعودي مما يجعل من نظامنا داعماً للمحتوى المحلي

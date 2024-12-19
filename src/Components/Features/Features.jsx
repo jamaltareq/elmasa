@@ -7,10 +7,9 @@ export default function Features() {
                 <div className="container">
                     <div className="text-center">
                         <p className="mt-4 mx-auto text-lg text-muted">
-                            ما هو نظام شبكات الماسة
-                        </p>
+                            ما هو نظام شبكات الألماس                        </p>
                         <h3 className="mt-2  fw-normal text-dark">
-                            شبكات الماسة هو نظام ذكي للبناء بالحديد البارد يتميز بـ
+                            شبكات الألماس هو نظام ذكي للبناء بالحديد البارد يتميز بـ
                         </h3>
                     </div>
 

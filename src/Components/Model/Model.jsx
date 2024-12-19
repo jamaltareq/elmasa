@@ -7,7 +7,7 @@ export default function Model() {
             <div className="container">
                 <div className="row" style={{ direction: "rtl" }}>
                     <div className="head col-sm-12 " style={{ direction: "rtl" }}>
-                        <h2 className='fw-bold'>نماذج من تصاميم الحديد البارد</h2>
+                        <h3 className='fw-bold'>نماذج من تصاميم الحديد البارد</h3>
                     </div>
                     <div className="col-12">
                         <video className='videoedi' autoPlay loop muted>

@@ -24,9 +24,8 @@ export default function NavBar() {
 
                         <li className='nav-item'><a className='nav-link' href="#">الرئيسية</a></li>
                         <li className='nav-item'><a className='nav-link' href="#about">من نحن</a></li>
-                        <li className='nav-item'><a className='nav-link' href="#brochure"> البروشر</a></li>
                         <li className='nav-item'><a className='nav-link' href="#gallery">منتجاتنا</a></li>
-                        <li className='nav-item'><a className='nav-link' href="#features">ماهي الماسة</a></li>
+                        <li className='nav-item'><a className='nav-link' href="#features">ماهي شبكات الألماس</a></li>
                         <li className='nav-item'><a className='nav-link' href="#wrapper">مم يتكون النظام</a></li>
                         <li className='nav-item'><a className='nav-link' href="#plan">الخطه</a></li>
                         <li className='nav-item'><a className='nav-link' href="#choose">لما تختارنا</a></li>
@@ -35,10 +34,11 @@ export default function NavBar() {
                         <li className='nav-item'><a className='nav-link' href="#ofer">العروض </a></li>
                         <li className='nav-item'><a className='nav-link' href="#faq">الاسئلة الشائعة</a></li>
                         <li className="nav-item">
-                            <Link className="btn bg-main rounded-pill text-white" to="/contact">
+                            <Link className="nav-link" to="/contact">
                                 اتصل بنا
                             </Link>
                         </li>
+                        <li className='nav-item me-3'><a className='btn bg-main rounded-pill text-white me-5' href="#brochure"> البروفايل</a></li>
                     </ul>
                 </div>
             </div>

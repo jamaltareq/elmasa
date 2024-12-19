@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <footer className="footer-section" style={{ direction: 'rtl' }}>
+        <footer className="footer-section p-4" style={{ direction: 'rtl' }}>
             <div className="container">
                 <div className="footer-cta pt-5 ">
                     <div className="row">

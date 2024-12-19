@@ -6,20 +6,20 @@ export default function Plan() {
             <div className="container">
                 <div className="sec-title light" style={{ direction: "rtl" }}>
                     <div className="title">الخطه التقدمية</div>
-                    <h2>رحلة البناء بنظام شبكات الماسة إختصرناها إلى 4 مراحل وهي:</h2>
+                    <h2>رحلة البناء بنظام شبكات الألماس إختصرناها إلى 4 مراحل وهي:</h2>
                 </div>
                 <div className="row clearfix" style={{ direction: "rtl" }}>
 
                     <div className="work-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div className="inner-box">
+                        <div className="inner-box" >
                             <div className="icon-box">
                                 <i className="overlay-icon fas fa-book-open"></i>
                             </div>
-                            <div className="step">الخطوه الاول</div>
+                            <div className="step" style={{ direction: 'rtl' }}>الخطوه الاول</div>
                             <h2>التصميم والتخطيط</h2>
                             <div className="overlay-box">
                                 <div className="overlay-inner">
-                                    <div className="overlay-content">
+                                    <div className="overlay-content" style={{ direction: 'rtl' }}>
                                         <i className="overlay-icon fas fa-book-open"></i>
                                         <div className="overlay-step">الخطوه الاولي</div>
                                         <div className="text">إعداد الرسومات الهندسية والدراسات الإنشائية.

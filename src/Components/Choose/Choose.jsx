@@ -7,7 +7,7 @@ export default function Choose() {
                 <div className="row" style={{ direction: "rtl" }}>
                     <div className="section-head col-sm-12" style={{ direction: "rtl" }}>
                         <h4><span>لماذا </span> تختارنا ؟</h4>
-                        <p>نظام الماسة هو تقنية مبتكرة تعتمد على الهياكل المصنوعة من الحديد البارد، ويتميز بعدة مزايا أساسية:.</p>
+                        <p>نظام شبكات الألماس هو تقنية مبتكرة تعتمد على الهياكل المصنوعة من الحديد البارد، ويتميز بعدة مزايا أساسية:.</p>
                     </div>
                     <div className="col-lg-4 col-sm-6">
                         <div className="item"> <span className="icon feature_box_col_one"><i className="fa fa-globe"></i></span>
