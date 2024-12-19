@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/elmasa/static/css/main.bb24f3fa.css",
-    "main.js": "/elmasa/static/js/main.d1ffb985.js",
+    "main.css": "/elmasa/static/css/main.d7cb7c66.css",
+    "main.js": "/elmasa/static/js/main.4c3a764b.js",
     "static/js/453.c98e74af.chunk.js": "/elmasa/static/js/453.c98e74af.chunk.js",
     "static/media/homee.mp4": "/elmasa/static/media/homee.3a8b80ff081504dd0ab0.mp4",
     "static/media/mainv.mp4": "/elmasa/static/media/mainv.4702a078620c6069a28f.mp4",
+    "static/media/logo.png": "/elmasa/static/media/logo.ae4955bd262203a8282d.png",
     "static/media/fa-solid-900.ttf": "/elmasa/static/media/fa-solid-900.ad1782c70927ebc5bc87.ttf",
     "static/media/glas.jpg": "/elmasa/static/media/glas.f6d58e70a5adb4d9bc40.jpg",
     "static/media/fa-brands-400.ttf": "/elmasa/static/media/fa-brands-400.26b80c8830bebf340211.ttf",
@@ -35,12 +36,12 @@
     "static/media/fa-v4compatibility.ttf": "/elmasa/static/media/fa-v4compatibility.fa86b3c85e77abbd2ebd.ttf",
     "static/media/fa-v4compatibility.woff2": "/elmasa/static/media/fa-v4compatibility.c3ea317a0f10f201597f.woff2",
     "index.html": "/elmasa/index.html",
-    "main.bb24f3fa.css.map": "/elmasa/static/css/main.bb24f3fa.css.map",
-    "main.d1ffb985.js.map": "/elmasa/static/js/main.d1ffb985.js.map",
+    "main.d7cb7c66.css.map": "/elmasa/static/css/main.d7cb7c66.css.map",
+    "main.4c3a764b.js.map": "/elmasa/static/js/main.4c3a764b.js.map",
     "453.c98e74af.chunk.js.map": "/elmasa/static/js/453.c98e74af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb24f3fa.css",
-    "static/js/main.d1ffb985.js"
+    "static/css/main.d7cb7c66.css",
+    "static/js/main.4c3a764b.js"
   ]
 }
