@@ -27,15 +27,16 @@ export default function Other() {
                     <div className="col-md-6">
                         <div className="mb-2 gag rounded-2 bg-light shadow-sm">
                             <div className="navbar rounded-2 p-3 text-center d-flex flex-column align-content-center">
-                                <h3 className='fs-5 text-primary'>وجهات زجاجية</h3>
+                                <h3 className='fs-5 color-main'>وجهات زجاجية</h3>
                                 <p className='fs-7 text-black-50'
+                                    style={{ textAlign: "justify" }}
                                 >
                                     نحن من بين أكبر المصانع الرائدة والمتخصصة في تصنيع الواجهات الزجاجية وأعمال إكساء المباني الخارجية (الكلادينج) والقباب السماوية. نتميز بتقديم منتجات ذات جودة عالية تضمن متانة طويلة الأمد مع الحفاظ على جاذبيتها وأناقتها.
                                     منتجاتنا مصممة بعناية لتوفير أعلى مستويات العزل الحراري ومنع تسرب الماء، الهواء، والغبار، مما يضمن أداءً متميزاً في جميع الظروف.
                                     نحرص على تصنيع قطاعاتنا لدى أرقى المصانع العالمية المعروفة بجودة منتجاتها، لنقدم لكم حلولاً تواكب أعلى معايير الجودة والتمي                                    </p>
                                 <button
                                     onClick={() => handleDownload('/Assets/almasa.pdf', 'almasa.pdf', setIsDownloadingGlass)}
-                                    className={`btn ${isDownloadingGlass ? 'btn-secondary' : 'btn-primary'} d-flex align-items-center justify-content-center gap-2`}
+                                    className={`btn ${isDownloadingGlass ? 'btn-secondary' : 'bg-main text-white'} d-flex align-items-center justify-content-center gap-2`}
                                     disabled={isDownloadingGlass}
                                 >
                                     {isDownloadingGlass ? (
@@ -57,14 +58,15 @@ export default function Other() {
                     <div className="col-md-6">
                         <div className="mb-2 wood rounded-2 bg-light shadow-sm pb-5">
                             <div className="navbar rounded-2 p-3 text-center d-flex flex-column align-content-center">
-                                <h3 className='fs-5 text-primary'>تميز في صناعة المنتجات الخشبية</h3>
+                                <h3 className='fs-5 color-main'>تميز في صناعة المنتجات الخشبية</h3>
                                 <p className='fs-7 text-black-50'
+                                    style={{ textAlign: "justify" }}
                                 >
                                     مهمتنا هي تقديم منتجات خشبية عالية الجودة تجمع بين الابتكار والتميز الإبداعي، مع ضمان تلبية احتياجات عملائنا. نحن متخصصون في تصنيع وتركيب المنتجات حسب رؤية العميل، بدعم من فريق تصميم متميز وأحدث تقنيات التصنيع. نلتزم بتطوير قطاع النجارة في المملكة عبر تطبيق أنظمة الجودة الصارمة ومتابعة الأداء لضمان أفضل النتائج. كما أننا على أتم الاستعداد لتنفيذ المشاريع بمختلف أحجامها، مع الالتزام بالجودة والاحترافية.
                                 </p>
                                 <button
                                     onClick={() => handleDownload('/Assets/wood.pdf', 'wood.pdf', setIsDownloadingWood)}
-                                    className={`btn ${isDownloadingWood ? 'btn-secondary' : 'btn-primary'} d-flex align-items-center justify-content-center gap-2`}
+                                    className={`btn ${isDownloadingWood ? 'btn-secondary' : 'bg-main text-white'} d-flex align-items-center justify-content-center gap-2`}
                                     disabled={isDownloadingWood}
                                 >
                                     {isDownloadingWood ? (

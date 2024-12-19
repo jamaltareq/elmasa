@@ -5,7 +5,7 @@ export default function Plan() {
         <section id="plan" className="work-section" style={{ backgroundImage: "url(https://i.ibb.co/r4xf3sK/newslater.jpg)" }} >
             <div className="container">
                 <div className="sec-title light" style={{ direction: "rtl" }}>
-                    <div className="title">الخطه التقدمية</div>
+                    <div className="title fs-3">الخطه التقدمية</div>
                     <h2>رحلة البناء بنظام شبكات الألماس إختصرناها إلى 4 مراحل وهي:</h2>
                 </div>
                 <div className="row clearfix" style={{ direction: "rtl" }}>

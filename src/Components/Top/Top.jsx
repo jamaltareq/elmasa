@@ -76,7 +76,7 @@ export default function Top() {
                 </button>
             )}
 
-            <style jsx>{`
+            <style >{`
                 @keyframes ring {
                     0% {
                         box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
