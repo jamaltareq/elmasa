@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/elmasa/static/css/main.bb24f3fa.css",
-    "main.js": "/elmasa/static/js/main.1639b11a.js",
+    "main.js": "/elmasa/static/js/main.d1ffb985.js",
     "static/js/453.c98e74af.chunk.js": "/elmasa/static/js/453.c98e74af.chunk.js",
     "static/media/homee.mp4": "/elmasa/static/media/homee.3a8b80ff081504dd0ab0.mp4",
     "static/media/mainv.mp4": "/elmasa/static/media/mainv.4702a078620c6069a28f.mp4",
@@ -36,11 +36,11 @@
     "static/media/fa-v4compatibility.woff2": "/elmasa/static/media/fa-v4compatibility.c3ea317a0f10f201597f.woff2",
     "index.html": "/elmasa/index.html",
     "main.bb24f3fa.css.map": "/elmasa/static/css/main.bb24f3fa.css.map",
-    "main.1639b11a.js.map": "/elmasa/static/js/main.1639b11a.js.map",
+    "main.d1ffb985.js.map": "/elmasa/static/js/main.d1ffb985.js.map",
     "453.c98e74af.chunk.js.map": "/elmasa/static/js/453.c98e74af.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bb24f3fa.css",
-    "static/js/main.1639b11a.js"
+    "static/js/main.d1ffb985.js"
   ]
 }
