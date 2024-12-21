@@ -132,7 +132,7 @@ ul {
   bottom: 0px;
   width: 50px;
   height: 3px;
-  background-color: #d1d2d6;
+  background-color: #192734;
 }
 
 .sec-title .text {
@@ -1004,7 +1004,7 @@ li {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #f1cd81;
+  background-color: #192734;
 }
 
 .sec-title h2 {
@@ -2138,6 +2138,15 @@ ul {
   font-weight: 500;
 }
 
+.faq-summary.active {
+  background-color: #607896;
+  /* اللون عند الفتح */
+  color: #fff;
+  /* لون النص */
+  border-radius: 6px;
+
+}
+
 .faq-open-icon {
   font-size: 22px;
   font-weight: 700;
@@ -2263,9 +2272,13 @@ ul {
 }
 
 .color-two {
-  color: #f3ce7e !important;
+  color: #192734 !important;
 }
 
 .color-main {
   color: #607896 !important;
+}
+
+.color-offer {
+  color: #f8d68e;
 }

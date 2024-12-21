@@ -7,8 +7,8 @@ export default function Model() {
             <div className="container">
                 <div className="row" style={{ direction: "rtl" }}>
                     <div className="text-center  col-sm-12" style={{ direction: "rtl" }}>
-                        <h4 className='color-two fs-1'> نماذج </h4>
-                        <p className='color-main'>نماذجنا المتنوعة في الحديد البارد تتميز بتصاميم عصرية تلبي مختلف الاحتياجات الإنشائية، مع ضمان الكفاءة والجودة العالية لتناسب جميع المشاريع</p>
+                        <h4 className='color-two fs-1'>نماذج من تصاميمنا </h4>
+                        <p className='color-main fs-4'>نماذجنا المتنوعة في الحديد البارد تتميز بتصاميم عصرية تلبي مختلف الاحتياجات الإنشائية، مع ضمان الكفاءة والجودة العالية لتناسب جميع المشاريع</p>
                     </div>
                     <div className="col-12">
                         <video className='videoedi' autoPlay loop muted>

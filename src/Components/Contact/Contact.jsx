@@ -123,8 +123,8 @@ const Contact = () => {
                     <div className="row">
                         <div className="col-md-10 offset-md-1">
                             <div className="map_inner">
-                                <h4>العنوان</h4>
-                                <p>موقعنا يقع في منطقة الغرناطه بالرياض، المملكة العربية السعودية. تشتهر هذه المنطقة بأجوائها الحيوية وقربها من المعالم الرئيسية في العاصمة.</p>
+                                <h4 className='fs-2 color-two'>العنوان</h4>
+                                <p className='fs-4 color-main'>موقعنا يقع في منطقة الغرناطه بالرياض، المملكة العربية السعودية. تشتهر هذه المنطقة بأجوائها الحيوية وقربها من المعالم الرئيسية في العاصمة.</p>
                                 <div className="map_bind">
                                     <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3527.6743645365214!2d46.73835999822612!3d24.799879738419115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDQ3JzU5LjYiTiA0NsKwNDQnMjkuMCJF!5e1!3m2!1sen!2seg!4v1733274867394!5m2!1sen!2seg" width="100%" height="450" style={{ border: "0" }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                                 </div>

@@ -33,7 +33,7 @@ export default function About() {
                         <div className="inner-column wow fadeInLeft">
                             <figure className="image-1">
                                 <a href="#" className="lightbox-image" data-fancybox="images">
-                                    <img src={require('./../../Assets/about.png')} style={{ width: '500px' }} alt="About" />
+                                    <img src={require('./../../Assets/about.png')} style={{ width: '600px' }} alt="About" />
                                 </a>
                             </figure>
                         </div>

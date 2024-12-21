@@ -71,7 +71,7 @@ const cardsData = [
 export default function Gallery() {
     return (
         <div className="gallery-section container py-5" style={{ direction: 'rtl' }}>
-            <div className="text-center  col-sm-12" style={{ direction: "rtl" }}>
+            <div className="section-head  text-center  col-sm-12" style={{ direction: "rtl" }}>
                 <h4 className='color-two fs-1'> منتجاتنا </h4>
                 <p className='color-main'>منتجاتنا في الحديد البارد تجمع بين القوة والمتانة بتصاميم مبتكرة تضمن جودة عالية وحلولاً إنشائية فعالة لجميع المشاريع.</p>
             </div>

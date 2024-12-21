@@ -124,11 +124,11 @@ const FAQ = () => {
     return (
         <main id='faq'>
             <div className="container">
-                <h2 className="faq-heading">الأسئلة الشائعة</h2>
+                <h4 className=' color-two my-5 text-center fs-1'> الأسئلة الشائعة</h4>
                 {faqData.map((faq, index) => (
                     <div key={index} className="faq-card" style={{ direction: 'rtl' }}>
                         <summary
-                            className="faq-summary"
+                            className={`faq-summary ${openIndex === index ? 'active' : ''}`}
                             onClick={() => toggleFAQ(index)} // عند النقر على السؤال
                         >
                             {faq.question}
