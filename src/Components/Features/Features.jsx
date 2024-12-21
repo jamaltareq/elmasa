@@ -6,11 +6,11 @@ export default function Features() {
             <div id='features' className="py-5" style={{ backgroundColor: "#f1f1f1" }}>
                 <div className="container">
                     <div className="text-center">
-                        <p className="mt-4 mx-auto text-lg text-muted">
-                            ما هو نظام شبكات الألماس                        </p>
-                        <h3 className="mt-2  fw-normal text-dark">
+                        <h3 className="mt-4 mx-auto text-lg fs-2 color-two">
+                            ما هو نظام شبكات الألماس                        </h3>
+                        <p className="mt-2  fw-normal  fs-4 color-main">
                             شبكات الألماس هو نظام ذكي للبناء بالحديد البارد يتميز بـ
-                        </h3>
+                        </p>
                     </div>
 
                     <div className="mt-5">

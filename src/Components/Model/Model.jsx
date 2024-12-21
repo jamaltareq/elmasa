@@ -6,8 +6,9 @@ export default function Model() {
         <div className="feat bg-gray pt-5 pb-5" id='model'>
             <div className="container">
                 <div className="row" style={{ direction: "rtl" }}>
-                    <div className="head col-sm-12 " style={{ direction: "rtl" }}>
-                        <h3 className='fw-bold'>نماذج من تصاميم الحديد البارد</h3>
+                    <div className="text-center  col-sm-12" style={{ direction: "rtl" }}>
+                        <h4 className='color-two fs-1'> نماذج </h4>
+                        <p className='color-main'>نماذجنا المتنوعة في الحديد البارد تتميز بتصاميم عصرية تلبي مختلف الاحتياجات الإنشائية، مع ضمان الكفاءة والجودة العالية لتناسب جميع المشاريع</p>
                     </div>
                     <div className="col-12">
                         <video className='videoedi' autoPlay loop muted>

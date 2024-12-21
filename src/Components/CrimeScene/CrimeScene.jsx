@@ -5,10 +5,10 @@ export default function CrimeScene() {
         <>
             <div id='wrapper' className="wrapper">
                 <div className="text-center">
-                    <p className="mt-4 mx-auto text-lg text-muted">
+                    <p className="mt-4 mx-auto text-lg color-two fs-2 ">
                         مما يتكون نظام شبكات الألماس
                     </p>
-                    <h3 className="mt-2  fw-normal text-dark">
+                    <h3 className="mt-2  fw-normal color-main fs-4">
                         جميع المنتجات هي من السوق السعودي مما يجعل من نظامنا داعماً للمحتوى المحلي
                     </h3>
                 </div>

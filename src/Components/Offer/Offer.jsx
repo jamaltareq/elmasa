@@ -2,11 +2,12 @@ import React from 'react';
 
 export default function Offer() {
     return (
-        <section className="feat bg-gray py-5" id="ofer">
+        <section className="feat bg-gray py-5" id="ofer" style={{ backgroundColor: '#f1f1f1' }}>
             <div className="container">
                 <div className="row" style={{ direction: "rtl" }}>
-                    <div className="col-12 mb-5 text-center">
-                        <h2 className="fw-bold">العروض</h2>
+                    <div className="text-center  col-sm-12" style={{ direction: "rtl" }}>
+                        <h4 className='color-two fs-1'> العروض </h4>
+                        <p className='color-main'>انتظر عروضنا القادمة على منتجات الحديد البارد، حيث الجودة العالية والأسعار التنافسية لتلبية كافة احتياجاتك الإنشائية.</p>
                     </div>
                     {[1, 2, 3].map((_, index) => (
                         <div className="col-md-4 mb-4" key={index}>

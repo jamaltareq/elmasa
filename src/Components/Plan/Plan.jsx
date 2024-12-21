@@ -5,7 +5,7 @@ export default function Plan() {
         <section id="plan" className="work-section" style={{ backgroundImage: "url(https://i.ibb.co/r4xf3sK/newslater.jpg)" }} >
             <div className="container">
                 <div className="sec-title light" style={{ direction: "rtl" }}>
-                    <div className="title fs-3">الخطه التقدمية</div>
+                    <div className="title fs-2 color-two">الخطه التقدمية</div>
                     <h2>رحلة البناء بنظام شبكات الألماس إختصرناها إلى 4 مراحل وهي:</h2>
                 </div>
                 <div className="row clearfix" style={{ direction: "rtl" }}>
@@ -22,9 +22,10 @@ export default function Plan() {
                                     <div className="overlay-content" style={{ direction: 'rtl' }}>
                                         <i className="overlay-icon fas fa-book-open"></i>
                                         <div className="overlay-step">الخطوه الاولي</div>
-                                        <div className="text">إعداد الرسومات الهندسية والدراسات الإنشائية.
-                                            <br />
-                                            تحديد المواد والمواصفات الفنية.</div>
+                                        <ul className="text list-style-one1">
+                                            <li>إعداد الرسومات الهندسية والدراسات الإنشائية.</li>
+                                            <li>تحديد المواد والمواصفات الفنية.</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -43,10 +44,11 @@ export default function Plan() {
                                     <div className="overlay-content">
                                         <i className="overlay-icon fas fa-briefcase"></i>
                                         <div className="overlay-step">الخطوه الثانية</div>
-                                        <div className="text">تسوية الأرض وحفر الأساسات.
-                                            <br />
-                                            إنشاء القواعد الخرسانية وتأسيس أعمال الكهرباء والسباكة والتكييف
-                                        </div>
+                                        <ul className="text list-style-one1">
+                                            <li>تسوية الأرض وحفر الأساسات.</li>
+                                            <li>إنشاء القواعد الخرسانية وتأسيس أعمال الكهرباء والسباكة والتكييف.</li>
+                                        </ul>
+
                                     </div>
                                 </div>
                             </div>
@@ -65,11 +67,11 @@ export default function Plan() {
                                     <div className="overlay-content">
                                         <i className="overlay-icon fas fa-chart-bar"></i>
                                         <div className="overlay-step">الخطوه الثالثة</div>
-                                        <div className="text">تصنيع وتجميع الهيكل الحديدي.
-                                            <br />
-                                            تركيب الهيكل المعدني والإكساءات الخارجية والداخلية.
+                                        <ul className="text list-style-one1">
+                                            <li>تصنيع وتجميع الهيكل الحديدي.</li>
+                                            <li>تركيب الهيكل المعدني والإكساءات الخارجية والداخلية.</li>
+                                        </ul>
 
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -88,11 +90,11 @@ export default function Plan() {
                                     <div className="overlay-content">
                                         <i className="overlay-icon fas fa-landmark"></i>
                                         <div className="overlay-step">الخطوه الرابعة</div>
-                                        <div className="text">تنفيذ أعمال الطلاء، تركيب الأرضيات، الأبواب، والنوافذ.
-                                            <br />
-                                            التأكد من جاهزية الموقع للاستخدام.
+                                        <ul className="text list-style-one1 text-white">
+                                            <li>تنفيذ أعمال الطلاء، تركيب الأرضيات، الأبواب، والنوافذ.</li>
+                                            <li>التأكد من جاهزية الموقع للاستخدام.</li>
+                                        </ul>
 
-                                        </div>
                                     </div>
                                 </div>
                             </div>

@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Katibeh&display=swap');
 
-body {}
 
 .bg-nav {
   background-color: rgba(0, 0, 0, .8);
@@ -12,36 +11,41 @@ body {}
   background-color: #607896 !important
 }
 
-
-.swep {
-  height: 100%;
-  width: 100vw;
-  overflow: hidden;
-  position: relative;
-}
-
 .video-container {
   position: relative;
   width: 100%;
-  /* الفيديو يغطي العرض بالكامل */
   height: 100vh;
-  /* الفيديو يغطي ارتفاع الشاشة */
+  /* ارتفاع الفيديو يغطي الشاشة بالكامل على الشاشات الكبيرة */
   overflow: hidden;
-  /* يمنع أي تجاوز خارج الحاوية */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .responsive-video {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  /* يضمن توسيط الفيديو */
   width: 100%;
-  /* عرض الفيديو يناسب الحاوية */
   height: 100%;
-  /* ارتفاع الفيديو يناسب الحاوية */
   object-fit: cover;
-  /* يحافظ على التناسق مع ملء الحاوية */
+  /* لضمان تغطية الفيديو للمساحة بالكامل */
+  transform: translate(-50%, -50%);
+}
+
+/* تنسيق خاص للأجهزة الصغيرة */
+@media (max-width: 768px) {
+  .video-container {
+    height: 50vh;
+    /* تقليل الارتفاع على الشاشات الصغيرة */
+  }
+
+  .responsive-video {
+    height: 100%;
+    /* الفيديو يملأ الارتفاع المتاح */
+    object-fit: contain;
+    /* الحفاظ على أبعاد الفيديو الأصلية */
+  }
 }
 
 
@@ -92,7 +96,6 @@ a:focus {
 ul {
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 
 
@@ -107,7 +110,7 @@ ul {
   display: block;
   font-size: 18px;
   line-height: 24px;
-  color: #607896;
+
   font-weight: 500;
   margin-bottom: 15px;
 }
@@ -160,15 +163,15 @@ ul {
   line-height: 26px;
   color: #222222;
   font-weight: 400;
-  padding-left: 35px;
+  padding-right: 35px;
   margin-bottom: 12px;
 }
 
 .list-style-one li:before {
   content: "\f058";
   position: absolute;
-  right: -25px;
-  top: 0px;
+  right: -0;
+  top: 3px;
   display: block;
   font-size: 18px;
   padding: 0px;
@@ -184,6 +187,43 @@ ul {
 }
 
 .list-style-one li a:hover {
+  color: #44bce2;
+}
+
+.list-style-one1 {
+  position: relative;
+}
+
+.list-style-one1 li {
+  position: relative;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 400;
+  padding-right: 35px;
+  margin-bottom: 12px;
+}
+
+.list-style-one1 li:before {
+  content: "\f058";
+  position: absolute;
+  right: -0;
+  top: 3px;
+  display: block;
+  font-size: 18px;
+  padding: 0px;
+  color: #ffffff;
+  font-weight: 600;
+  -moz-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1.6;
+  font-family: "Font Awesome 5 Free";
+}
+
+.list-style-one1 li a:hover {
   color: #44bce2;
 }
 
@@ -261,17 +301,17 @@ ul {
 
 .about-section .image-column .inner-column {
   position: relative;
-  padding-left: 120px;
-  padding-bottom: 125px;
 }
 
 .about-section .image-column .inner-column:before {
   position: absolute;
   left: -75px;
   top: 65px;
-  height: 520px;
-  width: 520px;
+  height: 100%;
+  width: 100%;
   background-image: url(https://i.ibb.co/fxJ1jtC/about-circle-1.png);
+  background-repeat: no-repeat;
+  background-position: center;
   content: "";
 }
 
@@ -777,20 +817,21 @@ ul {
 .social {
   position: fixed;
   top: 30%;
+  left: 36px;
   z-index: 5000000;
 }
 
 .social ul {
   list-style-type: none;
   padding: 0;
-  transform: translatex(-270px);
+  transform: translatex(-200px);
 }
 
 .social ul li {
 
   margin: 5px;
   background-color: rgba(0, 0, 0, 0.5);
-  width: 300px;
+  width: 200px;
   text-align: right;
   padding: 10px;
   border-radius: 0 30px 30px 0;
@@ -844,57 +885,91 @@ ul {
 }
 
 /* ----------------------------------------------------- */
-
-.dd {
-
+/* تنسيق الكارت */
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
   display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* الصورة العلوية (الشعار) */
+.card .top-image {
+  width: 55px;
+  height: 55px;
+  display: flex;
   justify-content: center;
+  padding: 15px;
+  align-items: center;
+  align-content: center;
+  margin: 10px;
+  border: .5px solid #607896 !important;
+  border-radius: 50%;
 }
 
-.cards {
-  width: 23%;
-
-}
-
-/* Additional Touch-Ups */
-
-/* Material Web Card */
-/* Block */
-.material-card {
-  background-color: #28292a;
-  color: white;
-  text-decoration: none;
-  border-radius: 30px;
-  cursor: pointer;
-  transition: 200ms cubic-bezier(.2, 0, 0, 1);
-}
-
-/* Elements */
-.card-picture {
+/* الصورة السفلية (الكبيرة) */
+.card img.card-picture {
   width: 100%;
-  height: 250px;
+  height: 200px;
+  /* تحديد نفس الارتفاع مثل الصورة العلوية */
   object-fit: cover;
-  border-radius: 10px;
-  transition: 200ms cubic-bezier(.2, 0, 0, 1);
 }
 
-.card-info {
-  padding: 20px;
+/* محتوى الكارت */
+.card-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.card-title {
-  font-weight: 400;
+/* تنسيق العنوان والـsubtitle */
+.card-heade {
+  display: flex;
+  align-items: center;
+  background-color: transparent !important;
 }
 
-
-
-/* Modifiers */
-.material-card:active {
-  border-radius: 50px;
+.card-heade img {
+  margin-right: 15px;
 }
 
+.card-heade .card-title {
+  margin: 0;
+}
+
+.card-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card-content ul li {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+/* تأثير عند التمرير */
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  text-align: right;
+  width: 100%;
+  flex: 1 1 auto;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  color: var(--bs-card-color);
+}
 
 
 /* Material Web Card */
@@ -924,12 +999,12 @@ li {
 .sec-title .title:before {
   position: absolute;
   content: '';
-  right: 20px;
-  bottom: -10%;
-  width: 20px;
-  height: 20px;
+  right: 31px;
+  bottom: 3%;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
-  background-color: #bbbbbb;
+  background-color: #f1cd81;
 }
 
 .sec-title h2 {
@@ -1907,9 +1982,6 @@ ul {
   border-radius: 50%;
 }
 
-.color-main {
-  color: #607896;
-}
 
 .fs-7 {
   font-size: 12px;
@@ -2081,7 +2153,7 @@ ul {
 }
 
 .head {
-  color: #0056b3;
+  color: #8b8b9a;
   text-align: center;
   font-size: 50px !important;
 }
@@ -2151,4 +2223,49 @@ ul {
 
 .popup-content button:hover {
   background-color: #0056b3;
+}
+
+/* تعيين لون الخلفية للـ div */
+.loader-container {
+  background-color: #607896;
+  /* اللون المطلوب */
+  width: 100vw;
+  /* ملء الشاشة بشكل كامل */
+  height: 100vh;
+  /* ملء الشاشة بشكل كامل */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+/* خصائص الـ Loader */
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #FFF;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+/* حركة التدوير للـ Loader */
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.color-two {
+  color: #f3ce7e !important;
+}
+
+.color-main {
+  color: #607896 !important;
 }

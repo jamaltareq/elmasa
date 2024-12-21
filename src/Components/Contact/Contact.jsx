@@ -61,8 +61,9 @@ const Contact = () => {
                                     <div className="col-md-10" style={{ direction: "rtl" }}>
                                         <div className="contact_form_inner">
                                             <div className="contact_field text-white">
-                                                <h3>تواصل معنا</h3>
-                                                <p>موقعنا يقع في منطقة الغرناطه بالرياض، المملكة العربية السعودية. تشتهر هذه المنطقة بأجوائها الحيوية وقربها من المعالم الرئيسية في العاصمة.</p>
+                                                <h3 className="mt-4 mx-auto text-lg fs-2 color-two">تواصل معنا</h3>
+                                                <p className="mt-2  fw-normal  fs-6 color-main">موقعنا يقع في منطقة الغرناطه بالرياض، المملكة العربية السعودية. تشتهر هذه المنطقة بأجوائها الحيوية وقربها من المعالم الرئيسية في العاصمة.</p>
+
                                                 <form onSubmit={handleSubmit}>
                                                     <input
                                                         type="text"

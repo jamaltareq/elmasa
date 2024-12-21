@@ -18,7 +18,7 @@ export default function Brochure() {
                     <p className='text-light'> للمزيد من المساعدة يرجى التواصل مع فريق العمل الخاص بنا</p>
                 </div>
                 <div style={{ zIndex: '54455655596988', }}
-                    className="col-md-3  d-flex align-content-center justify-content-center align-items-start mt-4 pointer">
+                    className="col-md-3 pb-5  d-flex align-content-center justify-content-center align-items-start mt-4 pointer">
                     <button
                         onClick={handleDownload}
                         style={{ position: 'relative', cursor: 'pointer !important' }}

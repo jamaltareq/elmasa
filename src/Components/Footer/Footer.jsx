@@ -17,9 +17,9 @@ export default function Footer() {
                         <div className="col-xl-4 col-md-4 mb-30">
                             <div className="single-cta">
                                 <i className="fas fa-phone text-whites"></i>
-                                <div className="cta-text">
+                                <div className="cta-text" >
                                     <h4>اتصل بنا</h4>
-                                    <span>+966 54 444 2552</span>
+                                    <span style={{ direction: 'ltr' }}>+966 54 444 2552</span>
                                 </div>
                             </div>
                         </div>
